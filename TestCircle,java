@@ -1,0 +1,20 @@
+public class TestCircle {
+    public static void main(String[] args) {
+        Circle circle1 = new Circle(5.0);
+        Circle circle2 = new Circle(5.0);
+        Circle circle3 = new Circle(10.0);
+        
+        // Test equals method
+        System.out.println("circle1 equals circle2: " + circle1.equals(circle2));
+        System.out.println("circle1 equals circle3: " + circle1.equals(circle3));
+        
+        // Test compareTo method
+        System.out.println("circle1 compared to circle2: " + circle1.compareTo(circle2));
+        System.out.println("circle1 compared to circle3: " + circle1.compareTo(circle3));
+        
+        // Print circles
+        System.out.println(circle1);
+        System.out.println(circle2);
+        System.out.println(circle3);
+    }
+}
